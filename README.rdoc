@@ -1,0 +1,9 @@
+== Rails App Template
+
+Basic template for new rails applications
+
+Tech stack:
+
+* PostgreSQL
+* Sequel
+* React

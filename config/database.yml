@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  max_connections: 4
+  # url: 'postgres://myuser:mypass@host/somedatabase'
+
+development:
+  <<: *default
+  database: app_development
+  user: vlad-ninja
+  password:
+
+test:
+  <<: *default
+  database: app_test
+  user: vlad-ninja
+  password:
+
+production:
+  <<: *default
+  database: app_production
+  user:
+  password:
